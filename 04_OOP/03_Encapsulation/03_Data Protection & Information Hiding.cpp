@@ -9,6 +9,7 @@ int solve(int input)   {	//member function
 	b = a/2;
 	return b;
 } };
+
 int main() {
    int n;
    cout << "Enter a number: "; // Prompt user for input
