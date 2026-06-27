@@ -3,19 +3,18 @@ using namespace std;
 
 #define MAX 5
 
-int stack[MAX];
-int top = -1;
+int stack[MAX] = {10, 20, 30};
+int top = 2;
 
-void push(int element)
+void pop()
 {
-    if (top == MAX - 1)
+    if (top == -1)
     {
-        cout << "Stack Overflow" << endl;
+        cout << "Stack Underflow" << endl;
         return;
     }
 
-    stack[++top] = element;
-    cout << element << " inserted into stack." << endl;
+    cout << "Popped Element: " << stack[top--] << endl;
 }
 
 void display()
@@ -35,9 +34,9 @@ void display()
 
 int main()
 {
-    push(10);
-    push(20);
-    push(30);
+    display();
+
+    pop();
 
     display();
 
