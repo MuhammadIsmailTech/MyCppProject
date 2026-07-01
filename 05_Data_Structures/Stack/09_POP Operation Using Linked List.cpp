@@ -19,3 +19,22 @@ int pop(Node* &Head) {
     cout << "Popped: " << Value << endl;
     return Value;
 }
+// Display stack
+void display(Node* Head) {
+    Node* temp = Head;
+    cout << "Stack (Top to Bottom): ";
+    while(temp) {
+        cout << temp->data << " ";
+        temp = temp->next;
+    }}
+int main() {
+    Node* Head = nullptr;
+    // Adding items manually
+    Head = new Node{10, nullptr};
+    Head = new Node{20, Head};
+    Head = new Node{30, Head};
+    display(Head);
+    pop(Head);
+    display(Head);
+    return 0;
+}
