@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+// Recursive function to find GCD
+int gcd(int a, int b)
+{
+    // Base Case
+    if (b == 0)
+        return a;
+
+    // Recursive Case
+    return gcd(b, a % b);
+}
+
+int main()
+{
+    int num1, num2;
+
+    cout << "Enter first number: ";
+    cin >> num1;
+
+    cout << "Enter second number: ";
+    cin >> num2;
+
+    cout << "GCD of " << num1 << " and " << num2
+         << " = " << gcd(num1, num2);
+
+    return 0;
+}
