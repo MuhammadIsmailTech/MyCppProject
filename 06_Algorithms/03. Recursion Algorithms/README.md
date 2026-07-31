@@ -20,7 +20,6 @@ Examples include:
 - Tree Traversal
 - Tower of Hanoi
 
----
 
 # What is Recursion?
 
@@ -39,7 +38,6 @@ if(n == 0)
     return;
 ```
 
----
 
 ## 2. Recursive Case
 
@@ -50,8 +48,6 @@ Example
 ```text
 return n * factorial(n - 1);
 ```
-
----
 
 # How Recursion Works
 
@@ -91,8 +87,6 @@ factorial(5)
 120
 ```
 
----
-
 # Recursion Tree
 
 Example:
@@ -113,7 +107,6 @@ factorial(4)
 
 Each function call is stored in the **Call Stack** until the base case is reached.
 
----
 
 # Call Stack
 
@@ -137,7 +130,6 @@ factorial(4)
 
 When the base case is reached, the stack starts returning values from top to bottom.
 
----
 
 # Advantages of Recursion
 
@@ -147,7 +139,6 @@ When the base case is reached, the stack starts returning values from top to bot
 - Useful for trees and graphs
 - Easy to understand mathematical problems
 
----
 
 # Disadvantages of Recursion
 
@@ -155,8 +146,6 @@ When the base case is reached, the stack starts returning values from top to bot
 - Slower than iteration in some cases
 - Can cause Stack Overflow
 - Harder to debug if recursion is deep
-
----
 
 # When Should We Use Recursion?
 
@@ -173,7 +162,6 @@ Examples
 - Graph Algorithms
 - Mathematical Problems
 
----
 
 # Time Complexity Symbols
 
@@ -184,7 +172,6 @@ Examples
 | O(n) | Linear Time |
 | O(2ⁿ) | Exponential Time |
 
----
 
 # Recursion Algorithms Included
 
