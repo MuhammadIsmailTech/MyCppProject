@@ -7,7 +7,7 @@
 
 ## Introduction
 
-This folder contains **10 intermediate-level Array Algorithms implemented in C++**.
+This folder contains **10 Easy-level Array Algorithms implemented in C++**.
 
 These algorithms build on the basic array concepts learned in **Part 1** and introduce more practical operations such as:
 
@@ -21,7 +21,7 @@ These algorithms build on the basic array concepts learned in **Part 1** and int
 
 These problems are useful for **Data Structures and Algorithms (DSA)** practice, university coursework, coding interviews, and problem-solving skills.
 
----
+ 
 
 # What is an Array?
 
@@ -43,7 +43,7 @@ arr[2] = 30;
 arr[4] = 50;
 ```
 
----
+ 
 
 # Prerequisites
 
@@ -60,7 +60,7 @@ Before starting Part 2, you should understand:
 
 It is recommended to complete **Array Algorithms – Part 1** first.
 
----
+ 
 
 # Algorithms Included
 
@@ -77,7 +77,7 @@ Part 2 contains the following 10 algorithms:
 9. Count Positive, Negative and Zero Elements
 10. Find Missing Number
 
----
+ 
 
 # 1. Second Largest Element
 
@@ -132,7 +132,7 @@ Time Complexity:  O(n)
 Space Complexity: O(1)
 ```
 
----
+ 
 
 # 2. Second Smallest Element
 
@@ -187,7 +187,7 @@ Time Complexity:  O(n)
 Space Complexity: O(1)
 ```
 
----
+ 
 
 # 3. Remove Duplicate Elements
 
@@ -237,7 +237,7 @@ Time Complexity:  O(n)
 Space Complexity: O(1)
 ```
 
----
+ 
 
 # 4. Remove an Element
 
@@ -281,7 +281,7 @@ Time Complexity:  O(n)
 Space Complexity: O(1)
 ```
 
----
+ 
 
 # 5. Insert an Element
 
@@ -336,7 +336,7 @@ Time Complexity:  O(n)
 Space Complexity: O(1)
 ```
 
----
+ 
 
 # 6. Delete an Element
 
@@ -377,7 +377,7 @@ Time Complexity:  O(n)
 Space Complexity: O(1)
 ```
 
----
+ 
 
 # 7. Merge Two Arrays
 
@@ -429,7 +429,7 @@ Time Complexity:  O(n + m)
 Space Complexity: O(n + m)
 ```
 
----
+ 
 
 # 8. Find Frequency of Each Element
 
@@ -478,7 +478,7 @@ For large arrays, a hash table such as `unordered_map` can reduce the average ti
 O(n)
 ```
 
----
+ 
 
 # 9. Count Positive, Negative and Zero Elements
 
@@ -530,7 +530,7 @@ Time Complexity:  O(n)
 Space Complexity: O(1)
 ```
 
----
+ 
 
 # 10. Find Missing Number
 
@@ -614,7 +614,7 @@ This implementation assumes:
 - Exactly one number is missing
 - There are no duplicate values
 
----
+ 
 
 # Complexity Comparison
 
@@ -631,7 +631,7 @@ This implementation assumes:
 | 9 | Positive/Negative/Zero | O(n) | O(n) | O(n) | O(1) |
 | 10 | Missing Number | O(n) | O(n) | O(n) | O(1) |
 
----
+ 
 
 # Folder Structure
 
@@ -665,7 +665,7 @@ Array-Algorithms/
     └── README.md
 ```
 
----
+ 
 
 # Learning Outcomes
 
@@ -684,12 +684,12 @@ After completing Part 2, you should be able to:
 - Analyze time and space complexity
 - Understand array manipulation techniques
 
----
+ 
 
 # Part 1 vs Part 2
 
 | Feature | Part 1 | Part 2 |
-|---------|--------|--------|
+| ------|--------|--------|
 | Level | Beginner | Intermediate |
 | Array Traversal | ✅ | ✅ |
 | Searching | Basic | Improved |
@@ -756,7 +756,6 @@ n × (n + 1) / 2
 
 instead of comparing every possible number.
 
----
 
 # Applications
 
@@ -773,7 +772,6 @@ These array techniques are useful in:
 - Operating systems
 - Machine learning preprocessing
 
----
 
 # Next: Part 3
 
@@ -796,7 +794,6 @@ The next 10 algorithms are:
 
 These algorithms introduce more advanced **array manipulation and rearrangement techniques**.
 
----
 
 # Repository Progress
 
@@ -815,8 +812,6 @@ Array Algorithms
         Rearrangement              🔜
 ```
 
----
-
 # Author
 
 **Muhammad Ismail**
@@ -824,8 +819,6 @@ Array Algorithms
 🎓 BS Computer Science Student  
 💻 C++ / Data Structures & Algorithms  
 📚 Learning Algorithms from Beginner to Advanced
-
----
 
 ## ⭐ Support
 
