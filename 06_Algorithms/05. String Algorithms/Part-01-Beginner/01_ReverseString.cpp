@@ -1,0 +1,32 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+string reverseString(string str)
+{
+    int left = 0;
+    int right = str.length() - 1;
+
+    while (left < right)
+    {
+        swap(str[left], str[right]);
+
+        left++;
+        right--;
+    }
+
+    return str;
+}
+
+int main()
+{
+    string str;
+
+    cout << "Enter a string: ";
+    getline(cin, str);
+
+    cout << "Reversed String: "
+         << reverseString(str);
+
+    return 0;
+}

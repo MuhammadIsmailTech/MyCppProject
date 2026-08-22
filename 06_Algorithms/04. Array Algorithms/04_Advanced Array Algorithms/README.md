@@ -528,7 +528,6 @@ Array-Algorithms/
     │   ├── 08.MaximumProductSubarray.cpp
     │   ├── 09.LongestConsecutiveSequence.cpp
     │   ├── 10.StockBuySell.cpp
-    │   └──
     │
     └── README.md
 
